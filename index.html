@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>오현서의 포트폴리오</title>
+    <title>Ohhyunseo의 포트폴리오</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -18,42 +18,51 @@
             overflow: hidden;
         }
         header {
-            background: #333;
-            color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
+            background: #90EE90;
+            color: #333;
+            padding: 20px 0;
+            text-align: center;
             border-bottom: #77aaff 3px solid;
         }
-        header a {
-            color: #fff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
-        }
-        header ul {
-            padding: 0;
-            list-style: none;
-        }
-        header li {
-            float: right;
-            display: inline;
-            padding: 0 20px 0 20px;
+        header h1 {
+            margin: 0;
+            font-size: 24px;
         }
         .main {
-            padding: 20px;
-            background: #fff;
+            padding: 20px 0;
         }
-        .footer {
+        .box {
+            background: #fff;
             padding: 20px;
-            background: #333;
-            color: #fff;
-            text-align: center;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
         }
         img {
+            display: block;
             width: 150px;
             height: 150px;
             border-radius: 50%;
-            margin-bottom: 20px;
+            margin: 0 auto 20px;
+        }
+        .footer {
+            padding: 20px;
+            background: #90EE90;
+            color: #333;
+            text-align: center;
+        }
+        .box h2, .box h3 {
+            text-align: center;
+        }
+        .box ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        .box ul li {
+            display: inline-block;
+            margin: 0 10px;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -64,29 +73,38 @@
         </div>
     </header>
     <div class="container main">
-        <section id="profile">
+        <div class="box">
             <img src="https://wrtn-image-user-output.s3.ap-northeast-2.amazonaws.com/666944bcd552cedff8d61ef9/1141b061-d3e2-41bd-bdc5-0903321735e7.png" alt="Ohhyunseo의 사진">
             <h2>오현서 (Ohhyunseo)</h2>
             <p><strong>이메일주소:</strong> hsoh0703@dongyang.ac.kr</p>
+        </div>
+        <div class="box">
             <h3>기술스택</h3>
             <ul>
                 <li>HTML</li>
                 <li>파이썬</li>
                 <li>GitHub</li>
             </ul>
+        </div>
+        <div class="box">
             <h3>대학정보</h3>
-            <p>동양미래대학교 컴퓨터 소프트웨어학과, 입학년도: 2024년도 3월</p>
+            <p>동양미래대학교 컴퓨터 소프트웨어학과, 입학년도: 2024년도</p>
+        </div>
+        <div class="box">
             <h3>기술개발 경험</h3>
-            <p>칼로리계산 서비스 웹페이지 중 점심메뉴추천 웹페이지 개발</p>
+            <p>칼로리계산 서비스 웹페이지 중 점심메뉴 추천 웹페이지 개발</p>
+        </div>
+        <div class="box">
             <h3>관심 기술분야</h3>
             <ul>
                 <li>웹 서비스 제작</li>
                 <li>컴퓨터 게임 제작</li>
             </ul>
-        </section>
+        </div>
     </div>
     <div class="footer">
         <p>© 2024 Ohhyunseo. All Rights Reserved.</p>
     </div>
 </body>
 </html>
+
